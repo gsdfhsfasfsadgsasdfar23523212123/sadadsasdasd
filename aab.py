@@ -11,7 +11,7 @@ async def root(request: Request,name:str):
 
 
 
-@app.get("/}")
+@app.get("/")
 async def root(request: Request):
     return ''
 
